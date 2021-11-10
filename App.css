@@ -1,0 +1,78 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.movie-container
+{
+  background-color: blue;
+  width:540px;
+}
+
+.movie-pictures
+ {
+  height: 500px;
+  width: 340px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.movie-pictures:hover 
+{
+  width: 410px;
+}
+
+
+.movie-specs 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: column;
+}
+
+.movie-summary
+{
+  width: 340px;
+  margin-top:0px;
+}
+
+body
+{
+  margin: 150px;
+  font-family:"poppins", sans-serif;
+  background-color:red;
+  color:white;
+}
+
+.movie-list
+{
+display:flex;
+gap:24px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+nav{
+  font-size: 24px;
+  display: flex;
+  margin:100px;
+  gap:20px;
+  color:white;
+}
+.Text-center
+{
+color: black;
+font-size: 20px;
+display: flex;
+margin-top:-177px;
+margin-left:500px;
+}
+
+h2
+{
+text-align: center;
+margin-top: -65px;
+text-shadow: thistle;
+}
